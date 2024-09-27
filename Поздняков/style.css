@@ -1,0 +1,36 @@
+header{
+    background-color: brown;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+main{
+    background-color: rgb(162, 6, 6);
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+#txt{
+    color: grey;
+    font-size: 35px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.txt{
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 100;
+    font-style: normal;
+
+}
+a{
+    color: black;
+}
