@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap&#39;');
+
+
+body{
+    margin: 0;
+    font-family: Open Sans;
+    color:white;
+    background-color: black;
+}
+
+h1, p{
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* header */
+
+header{
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.header-inner{
+    display: flex;
+}
+
+.logoImg{
+    width: 180px;
+    height: 122px;  
+    margin-right: 20px;
+}
+
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none; /*убираем маркеры списка*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+/* posters */
+
+#main{
+    display: flex;
+    justify-content: left;
+}
+
+.poster{
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    padding: 0 50px 50px 50px;
+    
+}
+.text{
+    display: flex;
+    width: 500px;
+    font-family: Open Sans;
+}
+
+/* footer */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    }
+    .miniLogo{
+    width: 73px;
+    height: 43px;
+    float: left;
+    margin-right: 20px;
+    }
+    .textFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    }
+    .footerP{
+    color: #504D4D;
+    font-weight: 900;
+    }
+    span{
+    color: red;
+    font-size: 28px;
+    }

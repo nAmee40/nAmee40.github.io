@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas class="rects" width="600" height="300" style="border: solid;"></canvas>
+    <script>
+        let canvas = document.querySelector(".rects");
+        let rects = canvas.getContext("2d");
+
+        let x = 100
+        let y = 100
+
+        let dx = 10
+        let dy = 10
+
+        let size = 20
+
+        let x2 = 200
+        let y2 = 100
+
+        let dx2 = -10
+        let dy2 = -10
+
+        let size2 = 20
+
+
+        function update(){
+
+            rects.fillStyle = "white"
+            rects.fillRect(0,0,600,300)
+
+            if(x < 0 || x > 600){
+                dx *= -1
+            }
+
+            if(y < 0 || y > 300){
+                dy *= -1
+            }
+
+            if(x2 < 0 || x2 > 600){
+                dx2 *= -1
+            }
+
+            if(y2 < 0 || y2 > 300){
+                dy2 *= -1
+            }
+
+            x += dx
+            y += dy
+            rects.fillStyle = "black"
+            rects.fillRect(x,y,size,size)
+            x2 += dx2
+            y2 += dy2
+            rects.fillStyle = "red"
+            rects.fillRect(x2,y2,size2,size2)
+        }
+
+        
+        
+
+        setInterval(update, 20)
+
+    </script>
+</body>
+
+</html>

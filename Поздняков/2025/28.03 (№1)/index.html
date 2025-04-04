@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://ylnas.com/wp-content/uploads/2024/02/scale_1200.jpeg")
+        }
+
+        .chat-container {
+            width: 2000px;
+            max-width: 90%;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .messages {
+            height: 480px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .messege {
+            max-width: 100%;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .sent {
+            align-self: flex-end;
+            background-color: #dcf8c6;
+        }
+
+        .received{
+            align-self: flex-start;
+            background-color: #e5e5ea;
+        }
+
+        .input-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        button {
+            margin-left: 5px;
+            padding: 8px 12px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: alias;
+        }
+
+        img{
+            width: 400px;
+            border-radius: 25px;
+            margin-bottom: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            margin-left: 0;
+        }
+        .avatar{
+            width: 60px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="usernameInput" placeholder="Введите имя...">
+            <input type="text" id="messageInput" placeholder="Введите сообщение...">
+            <button onclick="sendMessage(null)">Отправить</button>
+
+            <input type="file" id="fileInput">
+            <button onclick="sendImage()">Загрузка</button>           
+            <p id="status"></p>
+
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

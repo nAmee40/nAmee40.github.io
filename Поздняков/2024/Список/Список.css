@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/07/e5/32/07e5328e5b5e5ec41126fc3f24571a13.gif");
+    background-size: cover;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    font-size: 50px;
+    transition: 1.5s;
+}
+input{
+    transition: 1.5s;
+}
+button{
+    transition: 1.5s;
+}
+input:hover{
+    transform: rotate(0.5turn);
+    padding: 1000px;
+}
+button:hover{
+    transform: rotate(0.5turn);
+    margin-left: 1000px;
+}
+li:first-child:hover{
+    animation: move1 1s infinite;
+}
+@keyframes move1{
+    0% { transform: rotate(180deg);}
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1);}
+}

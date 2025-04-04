@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Что нибудь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="canvas"></canvas>
+
+    <script>
+        let cns = document.querySelector(".canvas");
+        let rct = cns.getContext("2d");
+
+        let x = 100
+        let y = 100
+        
+        let dx = 1
+        let dy = 1
+
+        let size = 5
+
+        function update(){
+
+            rct.fillStyle = "white"
+            //rct.fillRect(0,0,600,300)
+
+            x += dx
+            y += dy
+            rct.fillStyle = "black"
+            rct.fillRect(x,y,size,size)
+            rct.fillStyle = "red"
+            rct.fillRect(x + 5,y,size,size)
+            //rct.fillStyle = "red"
+            //rct.fillRect(x + 10,y + 10,size,size)
+
+            if(y > cns.height - size){
+                dy = dy * -1
+            }
+            if(y < 0){
+                dy = dy * -1
+            }
+            if(x > cns.width - size){
+                dx = dx * -1
+            }
+            if(x < 0){
+                dx = dx * -1
+            }
+        }
+
+        setInterval(update, 20)
+    </script>
+</body>
+</html>

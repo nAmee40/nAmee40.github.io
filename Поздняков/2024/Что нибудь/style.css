@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url("https://99px.ru/sstorage/86/2015/05/image_861505151204004567054.gif");
+} 
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+
+.Magic_ball{
+    background-color:rgb(12, 24, 62);
+    border-radius: 1000px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    user-select: none;
+    transition: 1s;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Magic_ball:hover{
+    background-color: aqua;
+    color: rgb(0, 150, 150);
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+    transform: scale(2, 0.5);
+}
+
+button{
+    display: inline;
+    border-radius: 30px;
+    border-color: #0c5e92;
+    color: #2839a7;
+    font-size: 20px;
+    border-width: 8px;
+    padding: 6px 6px 6px 6px;
+    background-color:rgb(59, 93, 214);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    transition: 1s;
+}
+
+button:hover{
+    transform: rotate3d(1, 1, 1, 100deg);
+}
+
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+input{
+    background-color: #2839a7;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color:#5a86a1;
+    width: 100px;
+    height: 50px;
+    rotate: 0.5turn;
+    
+}
+
+input:hover{
+    transform: rotate(0.5turn); 
+}
+
+h1{
+    color: white;
+    transition: 5s;
+}
+
+h1:hover{
+    opacity:0;
+}
