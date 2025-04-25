@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 60px;
+    font-style: normal;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 32px;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 200px;
+    display: flex;
+    background-color: #FFD700;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;    
+}
+.logoa {
+    display: flex;
+    justify-content: center;   
+}
+
+.head-txt {
+    font-family: 'caveat';
+    font-size: 35px;
+
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.main-txt_headd {
+    font-family: 'caveat';
+    font-size: 80px;
+
+    margin: 220px 50px 50px 50px;
+
+}
+.main-txt_head {
+    font-family: 'caveat';
+    font-size: 80px;
+
+    margin: 80px 50px 50px 50px;
+
+}
+.main-txt_main {
+    font-family: 'oswald';
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: block;
+}
+
+.a_h {
+    font-family: 'oswald';
+    font-size: 40px;
+}
+
+.in-2004 {
+    margin-left: 50px;
+    margin-top: 40px;
+    border: solid;
+    border-radius: 50px;
+}
+
+.float-left {
+    float: left;       
+    margin-right: 20px;
+    width: 200px;
+}
+
+.main-txt_subhead {
+    font-family: 'caveat';
+    font-size: 60px;
+
+    margin: 80px 50px 50px 50px;
+}
