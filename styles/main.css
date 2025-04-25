@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
 .comic-relief-regular {
     font-family: "Comicc", system-ui;
@@ -30,7 +38,7 @@ a {
 
 
 header {
-    height: 200px;
+    height: 180px;
     display: flex;
     background-color: #FFD700;
     position: fixed;
@@ -50,11 +58,15 @@ header {
 }
 
 .head-txt {
-    font-family: 'Comicc';
+    font-family: 'Dela Gothic One';
     font-size: 35px;
 
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+#social {
+    margin-right: 480px;
 }
 
 .main-txt_headd {
@@ -76,7 +88,8 @@ header {
     font-size: 50px;
     margin-top: 40px;
     margin-left: 50px;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .a_h {
@@ -84,11 +97,12 @@ header {
     font-size: 40px;
 }
 
-.in-2004 {
+.for-history {
     margin-left: 50px;
     margin-top: 40px;
     border: solid;
     border-radius: 50px;
+    width: 300px;
 }
 
 .float-left {
