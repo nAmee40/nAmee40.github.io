@@ -21,6 +21,14 @@
     font-style: normal;
 }
 
+.main-txt_main {
+    font-family: 'oswald';
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
