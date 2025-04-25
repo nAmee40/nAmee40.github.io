@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap');
 
-.caveat {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 60px;
+.comic-relief-regular {
+    font-family: "Comicc", system-ui;
+    font-weight: 400;
     font-style: normal;
-}
+  }
 
 .oswald {
     font-family: "Oswald", sans-serif;
@@ -15,6 +14,15 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  a:hover, a:visited, a:active, a:focus {
+    text-decoration: none;
+    color: black;
+}
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +50,7 @@ header {
 }
 
 .head-txt {
-    font-family: 'caveat';
+    font-family: 'Comicc';
     font-size: 35px;
 
     margin-left: 50px;
@@ -50,14 +58,14 @@ header {
 }
 
 .main-txt_headd {
-    font-family: 'caveat';
+    font-family: 'Comicc';
     font-size: 80px;
 
     margin: 220px 50px 50px 50px;
 
 }
 .main-txt_head {
-    font-family: 'caveat';
+    font-family: 'Comicc';
     font-size: 80px;
 
     margin: 80px 50px 50px 50px;
@@ -90,7 +98,7 @@ header {
 }
 
 .main-txt_subhead {
-    font-family: 'caveat';
+    font-family: 'Comicc';
     font-size: 60px;
 
     margin: 80px 50px 50px 50px;
