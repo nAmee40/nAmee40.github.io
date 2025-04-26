@@ -119,3 +119,25 @@ header {
 
     margin: 80px 50px 50px 50px;
 }
+
+
+footer {
+    height: 100px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.logotype {
+    height: 150px;
+}
+
+.foott {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'oswald';
+}
