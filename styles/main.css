@@ -142,7 +142,9 @@ footer {
     justify-content: left;
 }
 .main-img_d {
-    
+    border: solid;
+    border-radius: 60px;
+    width: 150px;
 }
 
 .logotype {
