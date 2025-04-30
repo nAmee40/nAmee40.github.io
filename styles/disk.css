@@ -68,3 +68,34 @@ header {
 #social {
     margin-right: 480px;
 }
+
+.if {
+    margin-top: 180px;
+    height: 500px;
+    width: 394px;
+}
+.if2 {
+    height: 500px;
+    width: 394px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.logotype {
+    height: 150px;
+}
+
+.foott {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'oswald';
+}
