@@ -83,3 +83,12 @@ header {
     margin-left: 90vh;
     width: 150px;
 }
+
+.image {
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 78vh;
+}
